@@ -3,3 +3,52 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body > header {
+    background-color: #171a21;
+    padding: 16px 0;
+    color: #fff;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 72px;
+    font-size: 72px;
+}
+
+header .container {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin-left: 280px;
+    margin-right: 72px;
+    font-family: motiva-sans, sans-serif;
+font-style:normal;
+font-weight: 200;
+}
+
+header li a {
+    color: #1a9fff;
+    text-decoration: none;
+}
+
+
+header div {
+    cursor: pointer;
+}
+
+
+
+header h1 {
+    font-size: 100px;
+    
+}
+
+header .container h1 {
+    padding-right:2200px;
+    
+}
+
+div .container{
+    color: blue;
+}
