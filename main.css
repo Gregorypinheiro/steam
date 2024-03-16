@@ -4,17 +4,27 @@
     box-sizing: border-box;
 }
 
-body > header {
+header .container {
     background-color: #171a21;
     padding: 16px 0;
     color: #fff;
 }
 
-header li {
+header img {
+
+}
+
+header nav li {
     display: inline;
-    margin-left: 72px;
-    font-size: 20px;
-    
+    margin-left: 16px;
+    margin-right: 8PX;
+    font-size: 24px;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 header .container {
@@ -71,7 +81,8 @@ header img {
 }
 
 #sports {
-    background-color: #0c0c0c;
+    background-color: #000000;
+    margin: -8px 0;
 }
 
 #sports p, h3 {
@@ -95,7 +106,7 @@ header img {
 
 
 #action {
-    background-color: #555a63;
+    background-color: #171a21;
 
 }
 
