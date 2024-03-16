@@ -103,10 +103,9 @@ header img {
     padding: 8px;
 }    
 
-
-
 #action {
     background-color: #171a21;
+    margin: -8px 0;
 
 }
 
@@ -121,14 +120,12 @@ header img {
 #action a {
     background-color: #1a9fff;
     font-family: motiva-sans, sans-serif;
+    
 }
 
 #action .articles article a {
     display: inline-block;
     padding: 8px;
-}
-.container h2 {
-
 }
 
 section h2 {
