@@ -39,6 +39,13 @@ header div h1 {
     
 }
 
+.container h2 {
+    color: #1a9fff;
+    margin: 4px;
+}
+
+.container
+
 header div a {
     margin-right: 16px;
     margin-left: -72px;
@@ -61,4 +68,113 @@ header div a {
 
 header img {
     margin-left: 32px;
+}
+
+#sports {
+    background-color: #0c0c0c;
+}
+
+#sports p, h3 {
+    color: #fff;
+}
+
+#sports time {
+    color: #606879;
+}
+
+#sports a {
+    background-color: #1a9fff;
+    font-family: motiva-sans, sans-serif;
+}
+
+#sports .articles article a {
+    display: inline-block;
+    padding: 8px;
+}    
+
+
+
+#action {
+    background-color: #555a63;
+
+}
+
+#action p {
+    color: #fff;
+}
+
+#action time {
+    color: #35383f;
+}
+
+#action a {
+    background-color: #1a9fff;
+    font-family: motiva-sans, sans-serif;
+}
+
+#action .articles article a {
+    display: inline-block;
+    padding: 8px;
+}
+.container h2 {
+
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#action .articles article a:hover {
+    background-color: #4ba6e7;
+}
+
+#sports .articles article a:hover {
+    background-color: #4ba6e7;
+}
+
+footer {
+    background-color: #0c0c0c;
+    color: #fff;
+    padding: 16px 0;
+}
+
+#contact .container {
+    display: block;
+    background-color: #171a21;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    cursor: pointer;
+    background:#171a21
+    
+}
+
+textarea {
+    resize: none;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content:space-between;
+    
+}
+
+input[type=text] {
+    color: #1a9fff;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 16px;
+
 }
