@@ -10,10 +10,6 @@ header .container {
     color: #fff;
 }
 
-header img {
-
-}
-
 header nav li {
     display: inline;
     margin-left: 16px;
@@ -65,7 +61,7 @@ header div a {
 .articles {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-between; 
 }
 
 .articles article {
@@ -96,6 +92,7 @@ header img {
 #sports a {
     background-color: #1a9fff;
     font-family: motiva-sans, sans-serif;
+    border-radius: 8px;
 }
 
 #sports .articles article a {
@@ -120,12 +117,13 @@ header img {
 #action a {
     background-color: #1a9fff;
     font-family: motiva-sans, sans-serif;
+    border-radius: 8px;
     
 }
 
 #action .articles article a {
     display: inline-block;
-    padding: 8px;
+    padding: 8px;  
 }
 
 section h2 {
@@ -185,4 +183,23 @@ input[type=text] {
     display: inline;
     margin-right: 16px;
 
+}
+
+.articles article {
+    position: relative;
+    overflow: hidden; /* Adiciona overflow hidden para esconder conteúdo que ultrapassa */
+}
+
+.articles article button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    max-height: 30px; /* Defina a altura máxima para o botão */
+    padding: 5px 10px;
+    background-color: #1a9fff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Adiciona uma transição suave para a cor de fundo */
 }
