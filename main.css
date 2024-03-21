@@ -10,7 +10,6 @@ header .container {
     color: #fff;
 }
 
-header nav li {
     display: inline;
     margin-left: 16px;
     margin-right: 8PX;
@@ -128,7 +127,8 @@ header img {
 }
 
 section h2 {
-    font-size: 32px;
+    font-size: 48px;
+    padding: 8px;
 }
 
 #action .articles article a:hover {
@@ -169,7 +169,6 @@ textarea {
 .contact-methods {
     display: flex;
     justify-content:space-between;
-    
 }
 
 input[type=text] {
