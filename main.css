@@ -10,6 +10,8 @@ header .container {
     color: #fff;
 }
 
+
+header nav li {
     display: inline;
     margin-left: 16px;
     margin-right: 8PX;
@@ -60,7 +62,7 @@ header div a {
 .articles {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between; 
+    justify-content: space-between;
 }
 
 .articles article {
@@ -78,6 +80,7 @@ header img {
 #sports {
     background-color: #000000;
     margin: -8px 0;
+    padding: 16px;
 }
 
 #sports p, h3 {
@@ -117,12 +120,11 @@ header img {
     background-color: #1a9fff;
     font-family: motiva-sans, sans-serif;
     border-radius: 8px;
-    
 }
 
 #action .articles article a {
     display: inline-block;
-    padding: 8px;  
+    padding: 8px;
 }
 
 section h2 {
@@ -205,4 +207,13 @@ input[type=text] {
 
 form button:hover {
     background-color: #1a9fff;
+}
+
+form button:hover {
+    background-color: #1a9fff;
+}
+
+section h2 {
+    font-size: 48px;
+    padding: 8px;
 }
