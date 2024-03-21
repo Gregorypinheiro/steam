@@ -102,11 +102,9 @@ header img {
     padding: 8px;
 }    
 
-
-
 #action {
     background-color: #171a21;
-
+    padding: 8px;
 }
 
 #action p {
@@ -126,12 +124,6 @@ header img {
 #action .articles article a {
     display: inline-block;
     padding: 8px;
-}
-.container h2 {
-
-}
-.container h2 {
-
 }
 
 section h2 {
@@ -155,7 +147,8 @@ footer {
 
 #contact .container {
     display: block;
-    background-color: #171a21;
+    background-color: #1f232c;
+    padding: 16px;
 }
 
 form input,
@@ -190,7 +183,6 @@ input[type=text] {
 .social-links li {
     display: inline;
     margin-right: 16px;
-
 }
 
 .articles article {
@@ -210,10 +202,6 @@ input[type=text] {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease; /* Adiciona uma transição suave para a cor de fundo */
-}
-
-form button:hover {
-    background-color: #1a9fff;
 }
 
 form button:hover {
