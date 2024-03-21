@@ -118,8 +118,11 @@ header img {
     background-color: #1a9fff;
     font-family: motiva-sans, sans-serif;
 <<<<<<< HEAD
+<<<<<<< HEAD
     border-radius: 8px;
     
+=======
+>>>>>>> parent of 4de58fb (99)
 =======
 >>>>>>> parent of 4de58fb (99)
 }
@@ -127,6 +130,9 @@ header img {
 #action .articles article a {
     display: inline-block;
     padding: 8px;  
+}
+.container h2 {
+
 }
 .container h2 {
 
