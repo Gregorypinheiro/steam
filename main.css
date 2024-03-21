@@ -79,6 +79,7 @@ header img {
 #sports {
     background-color: #000000;
     margin: -8px 0;
+    padding-bottom: 16px;
 }
 
 #sports p, h3 {
